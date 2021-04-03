@@ -19,9 +19,8 @@ This is a simple blog, created with Ruby. You can write, edit, and delete articl
 ## Getting Started
 
 ### Prerequisites
-To run this project, you need a computer with Ruby and RUby on Rails installed.
+To run this project, you need a computer with Ruby and Ruby on Rails installed.
 > If you are uncertain about how to install Ruby, check out this [tutorial](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming) made by [The Odin Project](https://www.theodinproject.com/about).
-<br>
 
 > If you are uncertain about how to install Ruby on Rails, check out this [tutorial](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/your-first-rails-application-ruby-on-rails) made by [The Odin Project](https://www.theodinproject.com/about).
 
