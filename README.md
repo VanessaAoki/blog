@@ -14,34 +14,33 @@
 </p>
 
 # Ruby-Capstone
-This is a web-scrapper, created with Ruby, to help you to get articles from [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) - directly from your terminal"
+This is a simple blog, created with Ruby. You can write, edit, and delete articles and comments from your browser.
 
 ## Getting Started
 
 ### Prerequisites
-To run this project, you need a computer with Ruby installed.
+To run this project, you need a computer with Ruby and RUby on Rails installed.
 > If you are uncertain about how to install Ruby, check out this [tutorial](https://www.theodinproject.com/courses/ruby-programming/lessons/installing-ruby-ruby-programming) made by [The Odin Project](https://www.theodinproject.com/about).
+> If you are uncertain about how to install Ruby on Rails, check out this [tutorial](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/your-first-rails-application-ruby-on-rails) made by [The Odin Project](https://www.theodinproject.com/about).
 
 ### Setup
 
 1. Clone the repository:
 ```
-https://github.com/VanessaAoki/Ruby-Capstone.git
+https://github.com/VanessaAoki/blog.git
 ```
 2. Type  `$ cd bin` to move to the bin folder, *you must be on this folder to execute the file*;
 
 3. Install all required gems by typing `$ bundle install` on the terminal;
 
-4. Execute the file by using `$ ruby main` on the terminal;
-
-5. Type the terms of your search and go through the millions of articles available on Wikipedia!
-
+4. Execute `$ rails server` on the terminal and run `http://localhost:3000/` in your browser to run the blog;
 
 ## Built With
 
-- Ruby
-- Ruby gems: nokogiri, open-uri, rubocop, watir and webdrivers
-- Visual Studio, Git & GitHub
+- Ruby 3.0.0;
+- Ruby on Rails 6.1.3;
+- Ruby gems: sqlite3, puma, sass-rails, webpacker, turbolinks, jbuilder, rubocop;
+- Visual Studio, Git & GitHub;
 
 
 ## Author
@@ -57,7 +56,7 @@ https://github.com/VanessaAoki/Ruby-Capstone.git
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/VanessaAoki/Ruby-Capstone/issues).
+Feel free to check the [issues page](https://github.com/VanessaAoki/blog/issues).
 
 
 ## Show your support
