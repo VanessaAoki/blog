@@ -2,7 +2,7 @@
   <a href="https://www.microverse.org/">
     <img alt="Microverse" src="https://img.shields.io/badge/-Microverse-blueviolet?style=flat-square">
   </a>
-  <a href="https://github.com/VanessaAoki/Ruby-Capstone/blob/development/LICENSE">
+  <a href="https://github.com/VanessaAoki/blog/blob/blog/LICENSE">
     <img alt="MIT Licensed" src="https://img.shields.io/github/license/VanessaAoki/Ruby-Capstone?style=flat-square">
   </a>
   <a href="https://github.com/VanessaAoki/blog">
