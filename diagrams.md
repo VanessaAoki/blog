@@ -9,7 +9,7 @@
 ## Articles
 
   - title: string [unique, present]
-  - body: text [present]
+  - body: text [10 chars minimum, present]
   - author_id: integer [present]
   - id: integer [unique, present]
 
