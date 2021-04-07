@@ -3,13 +3,14 @@
   - password: string [6-12 chars, present]
   - id: integer [unique, present]
 
-  has_many articles
-  has_many comments
+  has_many Article
+  has_many Comments
 
-## Articles
+## Article
 
   - title: string [unique, present]
   - body: text [10 chars minimum, present]
+  - website: string [present]
   - author_id: integer [present]
   - id: integer [unique, present]
 
@@ -23,5 +24,5 @@
   - article_id: integer [present]
   - id: integer [unique, present]
 
-  belongs_to Articles
+  belongs_to Article
   has_one Author
