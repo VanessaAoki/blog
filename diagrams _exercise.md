@@ -42,10 +42,34 @@
   - user_id: integer [unique, present]
 
   belongs_to :user
-  
+
 
 ## Exercise 3
 
+### User
+
+  - username: string [unique, 4-12 chars, present]
+  - email: string [unique, 8 chars minimum, present]
+
+  has_many :pins
+  has_many :comments 
+
+### Pins
+
+  - content: string [5 chars minimum, present]
+  - user_id: integer [unique, present]
+
+  belongs_to :user
+  has_many :comments
+
+### Comments 
+
+  - body: text [4 chars minumum, present]
+  - user_id: integer [unique, present]
+  - pin_id: integer [unique, present]
+
+  belongs_to :user
+  belongs_to :pin
 
 ## Exercise 4
 
@@ -74,6 +98,8 @@
   - body: text [present]
   - author_id: integer [present]
   - article_id: integer [present]
+  - asks_id: integer [present]
+  - show_id: integer [present]
 
   belongs_to :articles
   belongs_to :author
