@@ -11,11 +11,38 @@
 
   - title: string [unique, 4-12 chars, present]
   - body: text [10 chars minimum, present]
+  - course_id: integer [present]
 
   belongs_to :courses
-  
+
 
 ## Exercise 2
+
+### User
+
+  - username: string [unique, 4-12 chars, present]
+  - email: string [unique, 8 chars minimum, present]
+
+  has_one :geographic_profile
+  has_one :personal_profile
+
+### Geographic profile
+
+  - city: string [3 chars minumin, present]
+  - state: string [3 chars minimun, present]
+  - country: string [3 chars minumum, present]
+  - user_id: integer [unique, present]
+
+  belongs_to :user
+
+### Personal profile
+
+  - age: integer [present]
+  - gender: string [4-12 chars]
+  - user_id: integer [unique, present]
+
+  belongs_to :user
+  
 
 ## Exercise 3
 
