@@ -71,9 +71,10 @@
   belongs_to :user
   belongs_to :pin
 
+
 ## Exercise 4
 
-### Author
+### User
 
   - username: string [unique, 4-12 chars, present]
   - password: string [6-12 chars, present]
@@ -88,21 +89,21 @@
 
   - title: string [unique, present]
   - website: text [present]
-  - author_id: integer [present]
+  - user_id: integer [present]
 
-  belongs_to :author
+  belongs_to :user
   has_many :comments
 
 ### Comments
 
   - body: text [present]
   - author_id: integer [present]
-  - article_id: integer [present]
+  - user_id: integer [present]
   - asks_id: integer [present]
   - show_id: integer [present]
 
   belongs_to :articles
-  belongs_to :author
+  belongs_to :user
   belongs_to :asks
   belongs_to :show
 
@@ -110,24 +111,24 @@
 
   - title: string [unique, present]
   - body: text [10 chars minimum, present]
-  - author_id: integer [present]
+  - user_id: integer [present]
 
-  belongs_to :author
+  belongs_to :user
   has_many :answers
 
 ### Show
 
   - title: string [unique, present]
   - website: text [present]
-  - author_id: integer [present]
+  - user_id: integer [present]
 
-  belongs_to :author
+  belongs_to :user
   has_many :comments
 
 ### Jobs
 
   - title: string [unique, present]
   - website: text [present]
-  - author_id: integer [present]
+  - user_id: integer [present]
 
-  belongs_to :author
+  belongs_to :user
