@@ -13,8 +13,8 @@
   </a>
 </p>
 
-# Ruby-Capstone
-This is a simple blog, created with Ruby. You can write, edit, and delete articles and comments from your browser.
+# Rails Blog
+This is a simple blog, created with Ruby on Rails. You can write, edit, and delete articles and comments from your browser.
 
 ## Getting Started
 
