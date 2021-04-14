@@ -34,7 +34,7 @@ https://github.com/VanessaAoki/blog.git
 
 3. Install all required gems by typing `$ bundle install` on the terminal;
 
-4. Execute `$ rails server` on the terminal and run `http://localhost:3000/` in your browser to run the blog;
+4. Execute `$ rails server` on the terminal and run `http://localhost:3000/` in your browser (Google Chrome, Firefox etc.) to run the blog;
 
 ## Built With
 
